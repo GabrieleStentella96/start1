@@ -1,0 +1,53 @@
+body {
+
+    background-color: white;
+    font-family: 'Indie Flower', cursive;
+}
+
+.container {
+    background: #4c4a4a;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+    
+}
+
+.container div {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 15px;
+    text-align: center;
+    
+}
+
+.container div :hover {
+    
+    transform: rotate3d(0, 0, 0, 0deg);
+}
+
+
+    
+   
+    
+}
+
+.box1, .box5, .box7 {
+    background-color: #f7f76a;
+    transform: rotate3d(10, -5, -5, 10deg);
+    
+}
+
+.box2, .box4, .box8 {
+    background-color: #9af3f3;
+    transform: rotate3d(10, 10, 10, 20deg);
+}
+
+.box3, .box6 {
+    background-color: #de91ef;
+    transform: rotate3d(10, -5, -5, 10deg);
+}
+
