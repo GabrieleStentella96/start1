@@ -1,6 +1,6 @@
 body {
     font-size: 2rem;
-    background: #4c4a4a;
+    background: #6a6868;
     font-family: 'Indie Flower', cursive;
 }
 
@@ -20,26 +20,17 @@ body {
 }
 
 .container div {
-    width: 200px;
-    height: 200px;
     border: 1px solid black;
-    padding: 0.7em;
+    padding: 0.5em;
     margin: 0.5em;
     box-shadow: 5px 5px 8px #545353;
     text-align: center; 
+    transform: rotate(-5deg);
+
     
 }
 
-.container div:hover {
-    
-    transform: scale(0deg);
-    box-shadow: 3px 3px 3px #000000;
-    transition-timing-function: ease-in-out, ease-in-out;
-    transition-delay: 0.5s;
-    z-index: 3;
-    cursor: pointer;
-    
-}
+
 
 .container div:nth-child(2n+1) {
     background-color: #f7f76a;
@@ -48,17 +39,26 @@ body {
 
 .container div:nth-child(2n+2) {
     background-color: #9cf1fb;
-    transform: rotate(-5deg);
+    transform: rotate(5deg);
     
 }
 
 .container div:nth-child(3n) {
     background-color: #de91ef;
-    transform: rotate(10deg);
+    transform: rotate(5deg);
     
 }
 
 
-
+.container div:hover {
+    
+    transform: scale(1.2);
+    box-shadow: 10px 10px 10px #000000;
+    transition-timing-function: ease-in-out, ease-in-out;
+    transition-delay: 0.5s;
+    z-index: 3;
+    cursor: pointer;
+    
+}
 
 
